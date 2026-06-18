@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+<head>
+ <meta charset="utf-8">
+ <title>NZOKO; agence de voyages</title>
+ <link rel="stylesheet" href="semanticStyle.css">  
+</head>
+
+
+<body>
+  <header>
+    <h1>NZOKO Votre voyage, notre engagement</h1>
+    <nav>
+     <ul>
+      <li><a href="#">Accueil</a></li>
+      <li><a href="#">Destinations</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+     </ul>
+    </nav>
+  </header> 
+  <main>
+    <article>
+     <h2>Qui nous sommes?</h2>
+     <p>Nous sommes une agence de voyages passionnée par la découverte et le confort de nos clients.</p>
+    </article>
+     <form action="traitement.php" method="post">
+    <aside>
+     <h3>infos pratiques</h3>
+     <p>NOUS vous assurons un voyage securisé,confortable et bien organisé</p>
+     <p>Adresse: Quartier Moungali, Brazzaville, Congo</p>
+     <p>Réservation: +242 06 553 38 04</p>
+     <p>Email:mbamahonore15@gmail.com</p>
+    </aside>
+    
+ <fieldset>
+   
+  <legend>votre projet de voyage</legend>
+   <label for="destination">destination:</label>
+   <select id="destination"name="destination" required>
+    <option value="">--CHOISISSEZ UNE DESTINATION--</option>
+    <option value="Dolisie">Dolisie</option>
+    <option value="Ouesso">Ouesso</option>
+    <option value="Brazzaville">Brazzaville</option></select>>
+
+    <!-- date d'autres: Pointe Noire,Sibiti, plateaux --> 
+    <label for="depart">Date de depart:/label>
+    <input type="date" id="depart" name="depart" required>
+    <label for="personnes">Nombre de personnes:</label>
+    <input type="number" id="personnes" name="personnes" min="1" max="10" required>
+    <label for="demande">Votre demande:</label>
+    <textarea id="demande" name="demande"rows="5" required placeholder="Décrivez votre projet de voyage..."></textarea>
+    </fieldset>
+    <fieldset>
+    <legend> votre projet de voyage</legend>   
+   <label for="destination">destination:</label>
+   <select id="destination"name="destination" required>
+    <option value="">--CHOISISSEZ UNE DESTINATION--</option>
+    <option value="Dolisie">Dolisie</option>
+    <option value="Ouesso">Ouesso</option>
+    <option value="Brazzaville">Brazzaville</option></select>>
+
+    <!-- date d'autres: Pointe Noire,Sibiti, plateaux --> 
+    <label for="depart">Date de depart:/label>
+    <input type="date" id="depart" name="depart" required>
+    <label for="personnes">Nombre de personnes:</label>
+    <input type="number" id="personnes" name="personnes" min="1" max="10" required>
+    <label for="demande">Votre demande:</label>
+    <textarea id="demande" name="demande"rows="5" required placeholder="Décrivez votre projet de voyage..."></textarea>
+    </fieldset> 
+    <button type="submit">Envoyer</button>
+</form>
+  </main>
+    <footer>
+        <p>TEL :+242 06 553 38 04 | Email: mbamahonore15@gmail.com</p>
+
+ </body>
+</html>
